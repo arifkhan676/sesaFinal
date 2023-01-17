@@ -1,0 +1,391 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: #f1fbff;
+}
+#header{
+  margin-top: 7.9%;
+}
+.logo{
+  height: 90px;
+  padding: 5px 10px;
+  margin-left: 20px;
+  width: 120%;
+}
+
+/* about page */
+
+.about{
+  margin-top: 15%;
+
+}
+.about h2{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 3rem;
+}
+.about h4{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2rem;
+  color: #fff;
+  padding-top: 10px;
+}
+.head-about{
+  padding-bottom: 5%;
+}
+.about p{
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+.middle-box{
+  padding: 4% 7%;
+}
+.feature-sec{
+  background-color: #fff;
+  
+}
+.feature{
+  padding: 2% 5%;
+  position: relative;
+}
+.middle-box h4{
+  text-align: center;
+}
+.icon{
+  color: #ff4c68;
+  margin: 1rem;
+  padding-left: 32%;
+}
+.icon:hover{
+color:  #d334ffba;
+}
+.middle-box p{
+  font-size: 1.2rem;
+}
+
+/*women care*/
+
+.women{
+  background-color: #fff;
+}
+
+/* blog page */
+
+.blog{
+  padding-top: 100px;
+}
+
+/* popup form */
+.popup{
+  width: 300px;
+  background-color: #f1fbff;
+  border-radius: 6px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%,-50%) scale(0.1);
+  text-align: center;
+  margin-left: 6px;
+  padding: 0 30px 30px;
+  color: #333;
+  visibility: hidden;
+  transition: transform 0.4s,top 0.4s ;
+}
+.popup img{
+  width: 100px;
+  margin-top: -50px;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgb(0, 0, 0, 0.2);
+}
+
+.popup h2{
+  font-size: 30px;
+  font-weight: 400;
+}
+.open-popup{
+  visibility: visible;
+  top: 20%;
+  transform: translate(-50%,-50%) scale(1);
+}
+
+h1{
+  text-align: center;
+  font-weight: 700;
+  font-family: 'Rowdies', cursive;
+}
+
+h2{
+  font-family: sans-serif;
+}
+h5{
+  color: red;
+}
+
+h6{
+   color: red;
+   text-align: center;
+   font-weight: 700;
+}
+p {
+text-align: center;
+}
+.abp {
+  text-align: left;
+}
+.categories{
+  margin: 7%;
+}
+.med1,.med2,.med3{
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+.med1{
+  background-color: orange;
+}
+.med2{
+  background-color: orchid;
+}
+.med3{
+  background-color: blue;
+}
+.categories h1{
+  color: white;
+}
+.categories img{
+  width: 120px;
+  border-radius: 5%;
+}
+.card{
+  border: none;
+  box-shadow: 5px 5px 10px lightgray;
+}
+
+.section-padding{
+  padding: 100px 0;
+}
+.carousel-item{
+  height: 100vh;
+  min-height: 300px;
+}
+.carousel-caption{
+  bottom: 200px;
+  z-index: 2;
+}
+.carousel-caption h5{
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+}
+.carousel-caption p{
+   font-size: 1.2rem;
+   width: 60%;
+   margin: auto;
+   line-height: 1.9;
+}
+.carousel-inner::before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+.navbar-nav{
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.w-100{
+  height: 100vh;
+}
+.mid-pic{
+  width: 70%;
+  margin-left: 3%;
+  border-radius: 3%;
+}
+.Focus{
+  background: url(./images/pic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+
+}
+.join{
+   background-color: black;
+   color: white;
+}
+.join p{
+  text-align: left;
+  margin: 0;
+}
+.btn2{
+ height: 47px;
+ width: 100px;
+ background: white;
+ margin-left: -10px;
+ border: 2px solid white;
+ font-weight: 600;
+}
+.join input {
+ height: 45px;
+ width: 55%;
+ border: 2px solid white;
+ outline: none;
+ background: black;
+ color: white;
+ margin-top: 20px;
+ font-weight: 600;
+}
+
+
+header .header{
+  background-color: #fff;
+  height: 45px;
+}
+header a img{
+  width: 134px;
+margin-top: 4px;
+}
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.login-page .form .login{
+  margin-top: -31px;
+margin-bottom: 26px;
+}
+
+/* sign up */
+.login-page-pro{
+  width: 700px;
+  padding: 5% 0 0;
+  margin: auto;
+}
+.form-pro {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 700px;
+  margin: 0 auto 100px;
+  padding: 70px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+/* sign end */
+
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background-color: #328f8a;
+  background-image: linear-gradient(45deg,#328f8a,#08ac4b);
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #328f8a;
+  background-image: linear-gradient(45deg,#328f8a,#08ac4b);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+/*
+{
+
+}
+<button class="btn btn-warning mt-3" type="button" name="button">Subscribe</button>
+
+.btn1{
+  height: 45px;
+  width: 35px;
+  border: none;
+  outline: none;
+  background-color: rgd(248,26,92);
+  color: white;
+  font-weight: 700;
+  border-radius: 600px;
+}
+
+
+ responsive css */
+@media only screen and (max-width: 767px) {
+  .navbar-nav{
+    text-align: center;
+  }
+  .carousel-caption{
+    bottom: 125px;
+  }
+  .carousel-caption h5{
+    font-size: 1rem;
+
+  }
+    .carousel-caption a{
+       padding: 10px 15px;
+    }
+.carousel-caption p{
+  width: 100%;
+  line-height: 1.6;
+  font-size: 12px;
+}
+.about{
+  margin-top: 25%;
+}
+.about h2{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 3rem;
+}
+
+
+}
